@@ -34,7 +34,7 @@ In this project, which consists of only the home page design, the colors I used 
 I took care to use the orange color as the weight.
 
 
-This project consists of a navbar consisting of "cat, dog, fish bird, rodent sections.
+This project consists of a navbar consisting of "cat, dog, fish bird, rodent" sections.
 
 In this e-commerce website design I've created home page of eCommerce website with banner section, some featured categories images, then some featured products with product price, image and rating. 
 
