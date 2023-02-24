@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetHouse</title>
+    <link rel="icon" href="images/icons/paw.png"> <!--Logo in the title bar-->
+
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+
+</head>
+<body>
+    
+   
+    <header class="header">
+    <a href="#" class="logo"> <i class='fas fa-paw'></i> <span>PET</span> HOUSE </a>
+
+    
+<!-- Navbar --> 
+
+    <nav class="navbar">
+        
+            <a href="#"><i class="fa-solid fa-cat"></i>Kedi</a>
+            <a href="#"><i class="fa-solid fa-dog"></i>Köpek</a>
+            <a href="#"><i class="fa-solid fa-fish"></i> Balık</a>
+            <a href="#"><i class="fa-solid fa-dove"></i>Kuş</a>
+            <a href="#"><i class="fa-solid fa-paw"></i>Kemirgen</a>
+        
+    </nav>
+
+
+
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <!--Arama kısmı -->
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="Aradığınız ürünün adını yazınız.">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+
+    <!--Sepet kısmı -->
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="images/product/kum.jpg" alt="">
+            <div class="content">
+                <h3>Rocat Marsilya Sabunlu Kedi Kumu</h3>
+                <span class="price"> ₺105,90/- </span>
+                <span class="quantity"> adet : 1 </span>
+            </div>
+        </div>
+   
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="images/product/yasmama.jpg" alt="">
+            <div class="content">
+                <h3>Gourmet Gold Parça Etli ve Soslu Alabalık & Sebzeli Kedi Maması</h3>
+                <span class="price"> ₺17,50/- </span>
+                <span class="quantity"> adet : 1 </span>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="images/product/odulmama.jpg" alt="">
+            <div class="content">
+                <h3>Dreamies With Chicken Tavuk Etli Kedi Ödülü</h3>
+                <span class="price"> ₺18,50/- </span>
+                <span class="quantity"> adet : 1 </span>
+            </div>
+        </div>
+   
+        <div class="total"> Toplam Tutar: ₺141,90/- </div>
+        <a href="#" class="btn">Tümünü Gör </a>
+    </div>
+
+    <!--Giriş yap kısmı -->
+ 
+    <form action="" class="login-form">
+        <h3>Giriş Yap / Üye Ol</h3>
+        <input type="email" placeholder="E-mail" class="box">
+        <input type="password" placeholder="Şifre" class="box">
+        <p><a href="#">Şifremi Unuttum</a></p>
+        <p><a href="#">Üye Ol</a></p>
+        <input type="submit" value="Giriş Yap" class="btn">
+    </form>
+
+
+</header>
+
+    <!--Slider banner kısmı-->
+
+    <div id="slider">
+        <figure>
+            <img src="images/banner/çalışma1/banner1.png" alt="banner1">
+            <img src="images/banner/çalışma2/banner2.png" alt="banner2">
+            <img src="images/banner/çalışma3/banner3.png" alt="banner3">
+        </figure>
+
+    </div>
+    
+
+    <!--Öne Çıkanlar kısmı -->
+
+<section class="features" id="features">
+    <h1 class="heading"> Öne <span>Çıkanlar</span></h1>
+    
+    
+        <div class="box-container">
+            <div class="box">
+                <img src="images/oneCıkanlar/1.jpg" alt="" >
+                <h3>Royal Canin</h3>
+                <p>Royal Canin Kitten Instinctive Gravy Yavru Kedi Maması</p>
+                <a href="#" class="btn">Ürünü İncele</a>
+            </div>
+    
+    
+            <div class="box">
+                <img src="images/oneCıkanlar/2.jpg" alt="" >
+                <h3>Wanpy</h3>
+                <p>Wanpy Ördek & Bal Kabağı Kedi Et Ezmesi 90gr Kedi Ödül Maması</p>
+                <a href="#" class="btn">Ürünü İncele</a>
+            </div>
+    
+    
+            <div class="box">
+                <img src="images/oneCıkanlar/3.jpg" alt="" >
+                <h3>Leo's</h3>
+                <p>Leos Cat Litter Grey Aktif Karbonlu Bentonit Kedi Kumu</p>
+                <a href="#" class="btn">Ürünü İncele</a>
+            </div>
+    
+    
+            <div class="box">
+                <img src="images/oneCıkanlar/4.jpg" alt="" >
+                <h3>Gourmet Gold</h3>
+                <p>Gourmet Gold Sığır Etli Parça Etli Yetişkin Kedi Konservesi</p>
+                <a href="#" class="btn">Ürünü İncele</a>
+            </div>
+        </div>
+</section>
+
+
+    <!--Yeni Ürünler kısmı -->
+
+<section class="products" id="products">
+
+
+    <h1 class="heading"><span>Yeni</span> Ürünler</h1>
+
+
+    <div class="swiper product-slider">  
+
+
+        <div class="swiper-wrapper">
+
+
+            <div class="swiper-slide box">
+                <img src="images/yeniUrunler/1.jpg">
+                <h3>Proff</h3>
+                <div class="price"> ₺27,90/- - 30,90/- </div>
+                <div class="starts">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Sepete Ekle</a>
+            </div>
+
+
+            <div class="swiper-slide box">
+                <img src="images/yeniUrunler/2.jpg">
+                <h3>Pro Plan</h3>
+                <div class="price"> ₺27,90/- - 30,90/- </div>
+                <div class="starts">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Sepete Ekle</a>
+            </div>
+
+
+            <div class="swiper-slide box">
+                <img src="images/yeniUrunler/3.jpg">
+                <h3>Hills</h3>
+                <div class="price"> ₺27,90/- - 30,90/- </div>
+                <div class="starts">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Sepete Ekle</a>
+            </div>
+
+
+            <div class="swiper-slide box">
+                <img src="images/yeniUrunler/4.jpg">
+                <h3>Gimcat</h3>
+                <div class="price"> ₺27,90/- - 30,90/- </div>
+                <div class="starts">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Sepete Ekle</a>
+            </div>
+    </div>
+
+
+</div>
+
+
+<div class="swiper product-slider">
+
+
+    <div class="swiper-wrapper">
+
+
+        <div class="swiper-slide box">
+            <img src="images/yeniUrunler/5.jpg">
+            <h3>Wanpy</h3>
+            <div class="price"> ₺27,90/- - 30,90/- </div>
+            <div class="starts">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">Sepete Ekle</a>
+        </div>
+
+
+        <div class="swiper-slide box">
+            <img src="images/yeniUrunler/6.jpg">
+            <h3>Garden Mix</h3>
+            <div class="price"> ₺27,90/- - 30,90/- </div>
+            <div class="starts">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">Sepete Ekle</a>
+        </div>
+
+
+        <div class="swiper-slide box">
+            <img src="images/yeniUrunler/7.jpg">
+            <h3>Cat Chefs</h3>
+            <div class="price"> ₺27,90/- - 30,90/- </div>
+            <div class="starts">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">Sepete Ekle</a>
+        </div>
+
+
+        <div class="swiper-slide box">
+            <img src="images/yeniUrunler/8.jpg">
+            <h3>8in1</h3>
+            <div class="price"> ₺27,90/- - 30,90/- </div>
+            <div class="starts">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">Sepete Ekle</a>
+        </div>
+ </div>
+
+
+</div>
+
+
+
+
+</section>
+
+<!-- En Çok Satan Ürünler--> 
+
+<section class="categories" id="categories">
+        <h1 class="heading"><span>En Çok Satan</span>Ürünler</h1>
+       
+        <div class="box-container">
+
+
+            <div class="box">
+                <img src="images/EnCokSatan/1.jpg">
+                <h3>Beaphar </h3>
+                <p>Beaphar Duo Malt Paste Tüy Yumağı Kontrol Kedi Macunu 100 Gr </p>
+                <a href="#" class="btn">Ürünü İncele</a>
+            </div>
+
+
+            <div class="box">
+                <img src="images/EnCokSatan/2.jpg">
+                <h3>Me-O</h3>
+                <p>Me-O Creamy Treats Orkinos Balığı Tuna Ek Besin ve Kedi Ödülü </p>
+                <a href="#" class="btn">Ürünü İncele</a>
+            </div>
+
+
+            <div class="box">
+                <img src="images/EnCokSatan/3.jpg">
+                <h3>Cat Chow</h3>
+                <p>Cat Chow Pouch Somon ve Yeşil Fasülyeli Kedi Yaş Maması </p>
+                <a href="#" class="btn">Ürünü İncele</a>
+            </div>
+
+
+            <div class="box">
+                <img src="images/EnCokSatan/4.jpg">
+                <h3>Sandy</h3>
+                <p>Sandy Ekstra Topaklanan Sodyum Bentonit Bebek Pudralı Kedi Kumu 10 Kg </p>
+                <a href="#" class="btn">Ürünü İncele</a>
+            </div>
+        </div>
+
+
+</section>
+
+
+<!-- Footer kısmı -->
+
+<section class="footer">
+    <div class="box-container">
+
+        <div class="box">
+            <h3>PetHouse <i class="fas fa-paw"></i></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, mollitia.</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>İletişim</h3>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> 0(212) 22 33 44</a>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> 0(555)22 33 44</a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i> pethouse@gmail.com</a>
+                <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Ankara, Türkiye</a>
+        </div>
+
+        <div class="box">
+            <h3>Kategoriler</h3> 
+                <a href="#" class="links"> <i class="fas fa-home"></i> Ana Sayfa</a>
+                <a href="#" class="links"> <i class="fa-solid fa-cat"></i> Kedi</a>
+                <a href="#" class="links"> <i class="fa-solid fa-dog"></i> Köpek</a>
+                <a href="#" class="links"> <i class="fa-solid fa-fish"></i> Balık</a>
+                <a href="#" class="links"> <i class="fa-solid fa-dove"></i> Kuş</a>
+                <a href="#" class="links"> <i class="fa-solid fa-paw"></i> Kemirgen</a>
+        </div>
+
+        <div class="box">
+            <h3>Hızlı Erişim</h3>
+                <a href="#" class="links"> <i class="fa-solid fa-truck"></i> Sipariş Takibi</a>
+                <a href="#" class="links"> <i class="fa-solid fa-basket-shopping"></i> Sepetim</a>
+                <a href="#" class="links"> <i class="fa-solid fa-star"></i> Öne Çıkanlar</a>
+                <a href="#" class="links"> <i class="fa-solid fa-box-open"></i> Yeni Ürünler</a>
+                <a href="#" class="links"> <i class="fa-solid fa-gift"></i> En Çok Satan Ürünler </a>
+                <a href="#" class="links"> <i class="fa-solid fa-phone-volume"></i> Müşteri Hizmetleri</a>
+                <a href="#" class="links"> <i class="fa-solid fa-question"></i> Sık Sorulan Sorular</a>
+        </div>
+
+        <div class="box">
+            <h3></h3>
+            <p>Lorem ipsum dolor!</p>
+            <input type="email" placeholder="Email" class="email">
+            <input type="submit" value="gönder" class="btn">
+            <img src="images/footer/card.png" class="payment-img"alt="">
+        </div>
+
+    </div>
+
+    <div class="credit">created by <span> Elif Kır</span> | all rights reserved</div>
+</section>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+
+<script src="script.js"></script>
+
+
+
+
+
+
+</body>
+</html>
