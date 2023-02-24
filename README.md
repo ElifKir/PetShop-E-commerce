@@ -17,6 +17,7 @@ In this project:
 is used.
 
 In this project, which consists of only the home page design, the colors I used are:
+
     --orange: #ffa500;
     
     --dark-color: #363636;
